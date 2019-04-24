@@ -1,0 +1,140 @@
+dbs
+mongo dbs
+help
+show dbs
+db.help()
+db.help();
+mongo --version
+help
+db.mycoll.help
+show dbs
+show dbs
+use video
+db.movies.insertone({"title": "Jaws". "Year" : 1975, "imdb": "tt0073195"})
+db.movies.insertone({"title": "Jaws", "Year" : 1975, "imdb": "tt0073195"})
+show dbs
+use video
+show dbs
+db.movies.insertone({"title": "Jaws", "Year" : 1975, "imdb": "tt0073195"})
+db.movies.insertOne({"title": "Jaws", "Year" : 1975, "imdb": "tt0073195"})
+show dbs
+help findOne
+findOne() help
+findOne() --help
+help
+db.help()
+db.m101.find()
+;
+show dbs
+use m101
+db.hw1.find()
+db.hw1.findOne()
+help
+show collections
+db.funnnumbers.findOne()
+db.funnnumbers.find()
+db.funnynumbers.find()
+db.hw1.find()
+db.hw1.findOne()
+show dbs
+find()
+help find
+help
+use m101
+db.hw1_1.find()
+show collections
+db.hw1.find()
+mongorestore dump
+quit
+use hw1_1
+show collections
+help
+show collections
+show dbs
+use m101
+db.hw1_1.find()
+show collectionw
+show collections
+db.hw1_1.find()
+use video
+db.moviesScratch.insertOne({title: "Star Trek II: The Wrath Of Khan", year: 1982, imdb: "tt0084726" })
+show dbs
+db.movies.find ({rated: "PG-13"})
+db.moviesDetails.find ({rated: "PG-13"})
+use video
+db.moviesDetails.find ({rated: "PG-13"})
+db.moviesDetails.find ()
+db.movies.find ()
+moviesDetails.js
+logout
+use students
+db.grades.count()
+show dbs
+use students
+db.grades.count()
+db.grades.aggregate([{'$group':{'_id':'$student_id', 'average':{$avg:'$score'}}}, {'$sort':{'average':-1}}, {'$limit':1}])
+db.grades.find().pretty()
+db.grades.find({score:{$gte: 65}}).pretty()
+help
+db.help()
+help db.find()
+help db.foo.find()
+help
+db.grades.find({score:{$gte: 65}}).pretty()
+db.students.aggregate( [ { $group : { s" } } ]
+db.students.aggregate( [ { $group : { _id : "$item" } } ] )]
+db.students.aggregate( [ { $group : { _id : "$item" } } ] )];
+db.grades.find({score:{$gte: 65}}).pretty()
+db.grades.find({score:{$gte: 65}}).min({score:65})
+db.grades.find({score:{$gte: 65}}).hint({score:65})
+db.grades.find({score:{$gte: 65}}).pretty()
+db.grades.find().pretty()
+db.grades.find({score:{$gte: 65}}).pretty()
+db.grades.find({score:{$gte: 65}}).count()
+db.grades.find({score:{$gte: 65}, {score: $lte 66}}).count()
+db.grades.find({score:{$gte: 66}}).count()
+db.grades.find({score:{$gte: 65.1}).count()  }
+db.grades.find({score:{$gte: 65.5}}).count()
+db.grades.find({score:{$gte: 65.1}}).count()
+db.grades.find({score:{$lte: 65.1}}).count()
+db.grades.find({score:{$lte: 65.01}}).count()
+db.grades.find({score:{$lte: 65.00001}}).count()
+db.grades.find({score:{$lte: 65.000000000000000001}}).count()
+db.grades.find({score:{$lt: 65.000000000000000001}}).count()
+logoff
+exit()
+logout
+logout()
+help
+exit()
+db
+use test
+cmdCount = 1;
+cmdCount
+;
+cmdCount;
+prompt = function() { return (cmdCount++) + "> "; }
+db help
+help db
+dbs
+db
+help
+show dbs
+use islandCurse
+show collections
+use The Players
+help
+db.islandCurse.find()
+db.[The Players].find()
+db.The Players.find()
+db.The Players.find();
+db.help()
+db.getCollectionNames()
+db.getCollection("The Players")
+db.My Col.help()
+db.mycol.help()
+use islandCurse
+1
+db.getCollectionNames();
+2
+
